@@ -39,7 +39,6 @@ body{
     background: var(--bg-color);
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
-    overflow: hidden;
 }
 
 .container{

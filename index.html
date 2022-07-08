@@ -31,11 +31,18 @@
             <li>
                 <a href="https://wa.me/5521972275757?text=Oi,%20Daniel!%20Tenho%20interesse%20no%20seu%20trabalho%20 Web Fullstack" target="_blank">WhatsApp</a>
             </li>
+            <button class="btn-toggle-mode" onclick="toggleMode()">mudar tema</button>
         </ul>
 
         <footer>Projeto sugerido pela <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
             <img src="./img/rocket.png" alt="Imagem de um foguete" width="12px" height="12px" />
         </footer>
     </div>
+    <script> function toggleMode(){
+        const tema = ["dark-blue", "dark-pink", "pink", ""]
+        const itemTema = Math.round(Math.random() * (3 - 0) + 0 )
+        document.body.classList.toggle(tema[itemTema]);
+    } 
+    </script>
 </body>
 </html>
